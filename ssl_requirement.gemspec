@@ -19,7 +19,9 @@ Gem::Specification.new do |s|
   s.files = ["README",
              "init.rb",
              "lib/ssl_requirement.rb",
+             "lib/url_rewriter.rb",
              "rails/init.rb",
+             "shoulda_macros/ssl_requirement_macros.rb",
              "ssl_requirement.gemspec"]
 
   s.test_files = ["test/ssl_requirement_test.rb"]
